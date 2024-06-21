@@ -2,10 +2,12 @@ package com.example.config;
 
 import com.example.bean.Vehicle;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 @Configuration
+@ComponentScan("com.example.bean")
 public class ProjectConfig {
 
     @Bean(value = "audi")
@@ -37,13 +39,16 @@ public class ProjectConfig {
         return vehicle;
     }
 
-    @Bean
-    String hello(){
-        return "Hello World";
-    }
+//    @Bean
+//    String hello(){
+//        return "Hello World";
+//    }
+//
+//    @Bean
+//    Integer number(){
+//        return 16;
+//    }
 
-    @Bean
-    Integer number(){
-        return 16;
-    }
+
+
 }
