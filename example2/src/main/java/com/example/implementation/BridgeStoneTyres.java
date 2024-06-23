@@ -1,4 +1,4 @@
-package com.example.impl;
+package com.example.implementation;
 
 import com.example.interfaces.Tyres;
 import org.springframework.stereotype.Component;

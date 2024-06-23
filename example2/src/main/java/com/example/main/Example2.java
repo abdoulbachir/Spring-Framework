@@ -3,8 +3,8 @@ package com.example.main;
 import com.example.bean.Person;
 import com.example.bean.Vehicle;
 import com.example.config.ProjectConfig;
-import com.example.impl.BoseSpeaker;
-import com.example.impl.BridgeStoneTyres;
+import com.example.implementation.BoseSpeaker;
+import com.example.implementation.BridgeStoneTyres;
 import com.example.services.VehicleService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

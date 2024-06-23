@@ -1,4 +1,4 @@
-package com.example.impl;
+package com.example.implementation;
 
 import com.example.interfaces.Speaker;
 import org.springframework.context.annotation.Primary;
